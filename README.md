@@ -1,2 +1,2 @@
-# Large-Project
+# SkillSwap Project
 This is our group's large project, it is a social media system called SkillSwap where you essentially connect to each other via matching skill needs. An example of this would be, if I have a skill of Python but want to learn Calculus, I will want to then match with the person who wants to learn Python but knows Calculus. There is an instant messaging system included as well as a mobile app. 
