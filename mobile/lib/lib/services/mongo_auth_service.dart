@@ -11,7 +11,7 @@ class MongoAuthService {
   static const String collectionName = 'users';
 
   static const String _connectionString =
-      'mongodb+srv://skillswapadmin:Poos24@skillswap.fqd5j5s.mongodb.net/skillswap?retryWrites=true&w=majority&appName=SkillSwap';
+      'mongodb+srv://skillswapadmin:';
 
   Future<Map<String, dynamic>> login(String identifier, String password) async {
     final String trimmedIdentifier = identifier.trim();
@@ -100,3 +100,4 @@ class MongoAuthService {
     return diff == 0;
   }
 }
+
